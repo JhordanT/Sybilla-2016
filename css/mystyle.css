@@ -1,0 +1,1808 @@
+@font-face {
+    font-family: 'gotham';
+    src: url('fonts/Gotham-Bold.eot');
+    src: url('fonts/Gotham-Bold.eot') format('embedded-opentype'),
+         url('fonts/Gotham-Bold.woff2') format('woff2'),
+         url('fonts/Gotham-Bold.woff') format('woff'),
+         url('fonts/Gotham-Bold.ttf') format('truetype'),
+         url('fonts/Gotham-Bold.svg#AbadiMTCondensedExtraBoldRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'gotham-book';
+    src: url('fonts/Gotham-Book.eot');
+    src: url('fonts/Gotham-Book.eot') format('embedded-opentype'),
+         url('fonts/Gotham-Book.woff2') format('woff2'),
+         url('fonts/Gotham-Book.woff') format('woff'),
+         url('fonts/Gotham-Book.ttf') format('truetype'),
+         url('fonts/Gotham-Book.svg#AbadiMTCondensedLightRegular') format('svg');
+}
+@font-face {
+    font-family: 'gotham-medio';
+    src: url('fonts/original_Gotham-Medium.eot?#iefix') format('embedded-opentype'), 
+         url('fonts/original_Gotham-Medium.woff') format('woff'),
+         url('fonts/fonts/original_Gotham-Medium.ttf') format('truetype'),
+         url('fonts/original_Gotham-Medium.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body.how_use{
+    background-image: url(../images/howtouse/background_howuse.png);
+    background-position: center 51px;
+    background-repeat: no-repeat;
+}
+.FAPE_tendencias2016_container {
+    margin: 0 auto;
+    max-width: 960px;
+    position: relative;
+    width: 100%;
+}
+.menu-inner ul li a:hover{
+    color: #B9B9B9 !important;
+}
+    .FAPE_tendencias2016_container.home {
+        height: 970px;
+        overflow: hidden;
+    }
+
+.FAPE_tendencias2016_header {
+    height: 51px;
+    position: relative;
+    width: 100%;
+    z-index: 2000;
+    background-color: white;
+}
+    div.menu-inner{
+        position: absolute;
+        /*left: 420px;*/
+        right: 0px;
+        padding: 15px 30px 0px 0px;
+        top: 0;
+        font-family: gotham-book;
+    }
+        div.menu-inner ul li{
+            float: left;
+            /*margin-right: 45px;
+            padding-bottom: 5px;*/
+        }
+        /*.active{
+            border-bottom: 2px solid #262626;
+        }*/
+            div.menu-inner ul li:last-child{
+                margin-right: -1.5em;
+            }
+        div.menu-inner ul li a{
+          font-size: 14px;
+        }
+    div.logo{
+        display: inline-block;
+        padding: 9px 30px;
+        cursor:pointer;
+    }
+
+.menu {
+   font-family: gotham-book;
+}
+.menu__list {
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu__item {
+    display: block;
+   /* margin: 1em 0;*/
+}
+
+.menu__link {
+    font-size: 1.05em;
+    font-weight: bold;
+    display: block;
+    padding: 1em;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.menu__link:hover,
+.menu__link:focus {
+    outline: none;
+}
+/* Prospero */
+.menu--prospero .menu__link {
+   position: relative;
+    display: block;
+    margin: 0 1.5em;
+    padding: 0px 0px 5px 0px;
+    text-align: center;
+    color: #3C3B3B;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.menu--prospero .menu__link:hover,
+.menu--prospero .menu__link:focus {
+    color: #929292;
+}
+
+.menu--prospero .menu__item--current .menu__link {
+    color: #3C3B3B;
+}
+
+.menu--prospero .menu__link::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #3C3B3B;
+    -webkit-transform: scale3d(0, 1, 1);
+    transform: scale3d(0, 1, 1);
+    -webkit-transition: -webkit-transform 0.1s;
+    transition: transform 0.1s;
+}
+
+.menu--prospero .menu__item--current .menu__link::before {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+/* MENU CSS */
+.FAPE_tendencia2016_inner-box{
+    float: left;
+    width: 100%;
+    padding-bottom: 125px;
+    position: relative;
+}
+.FAPE_tendencias2016_intro_colection{
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+.FAPE_tendencias2016_intro_rib{
+    position: relative;
+    height: 622px;
+    width: 100%;
+}
+.FAPE_tendencias2016_intro_activewear{
+    position: relative;
+    height: 620px;
+    width: 100%;
+    margin-top: 40px;
+}
+.icon_mas{
+    position: absolute;
+    left: 500px;
+    top: 70px;
+}
+.icon_mas_2{
+    position: absolute;
+    left: 435px;
+    top: 175px;
+}
+.intro_colection_ground{
+    background-image: url(../images/intro.jpg);
+}
+.intro_colection_rib_ground{
+    background-image: url(../images/intro_rib.jpg);
+}
+.content_info_grunge{
+    display: none;
+}
+.intro_colection_activewear_ground{
+    background-image: url(../images/intro_activewear.jpg);
+}
+p.intro_colection {
+    position: absolute;
+    font-size: 65px;
+    text-align: center;
+    left: 285px;
+    bottom: 30%;
+    color: #fff;
+    font-family: gotham;
+    line-height: 40px;
+    display: inline-block;
+}
+div.intro_activewear_subtitle{
+    position: absolute;
+    font-size: 65px;
+    text-align: center;
+    left: 475px;
+    bottom: 35%;
+    color: #fff;
+    font-family: gotham;
+    line-height: 40px;
+    display: inline-block;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+}
+span.block_2{
+    font-size: 32px;
+    font-family: gotham-medio;
+}
+span.block_2_grunge{
+    font-size: 25px;
+    margin-left: 55px;
+}
+div.button_intro{
+    position: absolute;
+    left: 410px;
+    bottom: 18%;
+    width: 135px;
+    height: 35px;
+    background-image: url(../images/enter_button.png);
+    background-position: bottom;
+}
+div.button_intro:hover{
+    background-position: top;
+}
+.arrow-scrolldown, .arrow-scrolldown_activewear{
+       background-image: url(../images/scrolldown.png);
+    bottom: 10%;
+    cursor: pointer;
+    height: 16px;
+    left: 465px;
+    position: absolute;
+    width: 26px;
+    background-position: bottom;
+}
+.FAPE_tendencias2016_intro_howuse{
+    min-height: 645px;
+    width: 100%;
+    position: relative;
+}
+div.title{
+    text-align: center;
+    background-color: white;
+        padding: 30px 0px 0px 0px;
+}
+div.title img{
+    display: inline-block;
+}
+p.text_item{
+    text-align: center;
+    padding: 30px 0px 40px 0px;
+    font-size: 12px;
+    font-family: gotham-book;
+    background-color: white;
+}
+div.product{
+    background-color: white;
+}
+div.item_background{
+    background-image: url(../images/bg.jpg);
+    position: relative;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: 0 40px;
+}
+div.item{
+    width: 876px;
+    margin: 0 auto;
+    padding: 82px 0px 45px 0px;
+}
+div.item_product{
+    width: 33%;
+    display: inline-block;
+    position: relative;
+    height: 273px;
+    border-right: 1px solid #7f7f7f
+}
+    div.item_product:last-child{
+        border-right: none;
+    }
+    div.item_product div.inner{
+        position: absolute;
+        right: 10px;
+    }
+    div.intro_howuse{
+        position: absolute;
+        top: 12%;
+        left: 15px;
+    }
+    div.button_intro_howuse{
+    position: absolute;
+    left: 15px;
+    top: 110px;
+    background-image: url(../images/button_howuse.png);
+    width: 135px;
+    height: 35px;
+    cursor: pointer;
+    background-position: top;
+    }
+    div.button_intro_howuse:hover{
+        background-position: bottom;
+    }
+.subtitle_activewear{
+    position: absolute;
+    right: 40px;
+    top: 40%;
+}
+.subtitle_rib{
+    position: absolute;
+    left: 50px;
+    top: 38%;
+}
+.button_enter_rib{
+    position: absolute;
+    left: 140px;
+    cursor: pointer;
+    top: 380px;
+    width: 135px;
+    height: 35px;
+    background-image: url(../images/enter_rib.png);
+    background-position: bottom;
+}
+.button_enter_rib:hover{
+    background-position: top;
+}
+.button_enter_activewear{
+    position: absolute;
+    right: 195px;
+    cursor: pointer;
+    top: 360px;
+    width: 135px;
+    height: 35px;
+    background-image: url(../images/enter_activewear.png);
+    background-position: top;
+}
+.button_enter_activewear:hover{
+    background-position: bottom;
+}
+.box-one_activewear:hover .button_intro_getlook, .box-two_activewear:hover .button_intro_getlook, .box-three_activewear:hover .button_intro_getlook,
+.box-four_activewear:hover .button_intro_getlook, .box-five_activewear:hover .button_intro_getlook, .box-six_activewear:hover .button_intro_getlook, .box-seven_activewear:hover .button_intro_getlook {
+    opacity: 1;
+    bottom: 30px;
+}
+.box-one_activewear:hover .inner img, .box-two_activewear:hover .inner img, .box-three_activewear:hover .inner img,
+.box-four_activewear:hover .inner img, .box-five_activewear:hover .inner img, .box-six_activewear:hover .inner img, .box-seven_activewear:hover .inner img{
+    opacity: 0.8;
+
+}
+.scrollToTop{
+    background-image: url(../images/scrolltoTop.png);
+    bottom: 50px;
+    cursor: pointer;
+    height: 35px;
+    left: 410px;
+    position: absolute;
+    width: 135px;
+    z-index: 9;
+}
+.scrolldown_btn {
+    background-image: url(../images/scroll-downup.png);
+    background-position: top center;
+    cursor: pointer;
+    height: 26px;
+    left: 50%;
+    position: absolute;
+    top: 88%;
+    width: 48px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+/*START COLLECTION*/
+.FAPE_tendencias2016_colection {
+    position: relative;
+    height: 340px;
+    width: 100%;
+    display: block;
+}
+.FAPE_tendencias2016_colection_grunge{
+    position: relative;
+    height: 340px;
+    width: 100%;
+    display: none;
+}
+.colection_ground{
+    background-image: url(../images/collection/cabecera.jpg);
+}
+.colection_ground_grunge{
+    background-image: url(../images/collection/grunge/banner_grunge.png);
+}
+div.share_colection ul{
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 35px;
+}
+li.share_facebook{
+    background-image: url(../images/share.png);
+    height: 20px;
+    width: 30px;
+    background-repeat: no-repeat;
+    display: inline-block;
+
+}
+li.share_twitter{
+    background-image: url(../images/share.png);
+    height: 20px;
+    width: 55px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: -30px;
+}
+p.intro_size{
+    font-size: 55px !important;
+    line-height: 35px !important;
+    bottom: 40% !important;
+}
+p.intro_size_grunge{
+    font-size: 75px !important;
+    line-height: 29px !important;
+    bottom: 43% !important;
+    left: 380px;
+}
+p.intro_size_activewear{
+    font-size: 25px !important;
+    bottom: 37% !important;
+}
+/*p.intro_size_grusnge{
+    font-size: 80px !important;
+    bottom: 37% !important;
+}*/
+span.font_size{
+    font-size: 25px !important;
+}
+div.button_intro_colection{
+    position: absolute;
+    width: 315px;
+    left: 330px;
+    bottom: 24%;
+}
+div.button_intro_romantic, div.button_intro_grunge{
+   display: inline-block;
+    margin-right: 30px;
+    padding: 10px 0px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    font-size: 12px;
+    width: 135px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-family: gotham;
+    background: rgba(0,0,0,0.35);
+}
+div.active_romantic_intro{
+    background-color: #fff;
+    color: #000;
+}
+div.button_intro_romantic:last-child{
+    margin-right: 0px;
+}
+
+div.button_intro_romantic:hover{
+    background-color: #fff;
+    color: #000;
+}
+.FAPE_tendencias2016_colection_content{
+    position: relative;
+    width: 100%;
+    min-height: 800px;
+}
+div.items{
+    padding: 40px 0px 0px 0px;
+    position: relative;
+}
+.items.wide .item-one{
+    min-height: 3920px;
+    display: block;
+}
+.items.wide .item-two{
+    min-height: 2700px;
+    display: none;
+}
+.items .item-one, .items .item-two {
+    display: inline-block;
+    height: 620px;
+    width: 100%;
+    position: relative;
+}
+.inner{
+    height: 100%;
+    position: relative;   
+}
+.box-two .inner {
+    height: 439px;
+}
+.item_box.box-one {
+    height: 580px;
+    left: 0px;
+    width: 440px;
+    background-color: gray;
+}
+.item_box.box-two {
+    height: 439px;
+    left: 520px;
+    top: 40px;
+    width: 440px;
+    background-color: gray;
+}
+div.subtitle_colection{
+    width: 350px;
+    position: absolute;
+    text-align: right;
+    top: 505px;
+    right: 0px;
+}
+p.subtitle_colection{
+    font-family: gotham-book;
+    font-size: 30px;
+    color: black;
+    width: 205px;
+    width: 239px;
+    position: absolute;
+    right: 0px;
+}
+div.block_line{
+    width: 8px;
+    height: 6px;
+    background-color: black;
+    position: absolute;
+    right: 272px;
+    top: 25px;
+}
+div.line_subtitle_colection{
+    width: 100%;
+    height: 2px;
+    width: 280px;
+    background-color: black;
+    margin-bottom: 5px;
+    position: absolute;
+    right: 0px;
+    top: 30px;
+}
+p.text_colection{
+    font-size: 12px;
+    font-family: gotham-book;
+    color: black;
+    width: 90%;
+    margin-left: 10%;
+    line-height: 15px;
+    letter-spacing: 0.3px;
+}
+.item_box.box-three {
+    height: 600px;
+    left: 0px;
+    top: 680px;
+    width: 960px;
+    background-color: black;
+}
+.item_box.box-four{
+    height: 440px;
+    left: 0px;
+    top: 1485px;
+    width: 440px;
+    background-color: black;
+}
+.item_box.box-five{
+    height: 600px;
+    left: 520px;
+    top: 1405px;
+    width: 440px;
+    background-color: black;
+}
+.item_box.box-six{
+    height: 600px;
+    left: 0px;
+    top: 2085px;
+    width: 440px;
+    background-color: black;
+}
+.item_box.box-seven{
+    height: 440px;
+    left: 520px;
+    top: 2160px;
+    width: 440px;
+    background-color: black;
+}
+.item_box.box-eight{
+    height: 600px;
+    left: 0px;
+    top: 2765px;
+    width: 960px;
+    background-color: black;
+}
+.item_box.box-nine {
+    height: 580px;
+    left: 0px;
+    width: 440px;
+    background-color: black;
+}
+.item_box.box-ten{
+    height: 440px;
+    left: 520px;
+    top: 40px;
+    width: 440px;
+    background-color: black;
+}
+.item_box.box-eleven {
+    height: 600px;
+    left: 0px;
+    top: 680px;
+    width: 960px;
+    background-color: black;
+}
+.item_box.box-twelve{
+    height: 440px;
+    left: 0px;
+    top: 1485px;
+    width: 440px;
+    background-color: black;
+}
+.item_box.box-thirteen{
+    height: 600px;
+    left: 520px;
+    top: 1405px;
+    width: 440px;
+    background-color: black;
+}
+.item_box{
+    position: absolute;
+    height: 600px;
+}
+.item_box .inner {
+    overflow: hidden;
+}
+/*HOW TO USE*/
+.howuse_ground{
+    background-image: url(../images/howtouse/howtouse_banner.png);
+}
+div.share_howuse ul{
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 35px;
+}
+li.share_facebook, li.share_facebook_howuse{
+    background-image: url(../images/share.png);
+    height: 20px;
+    width: 10px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+div.share_colection ul a:first-child{
+    margin-right: 20px;
+}
+div.share_howuse ul a:first-child{
+    margin-right: 20px;
+}
+li.share_facebook_howuse{
+    background-image: url(../images/share_howuse.png) !important;
+}
+li.share_twitter, li.share_twitter_howuse{
+    background-image: url(../images/share.png);
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: -30px;
+}
+li.share_twitter_howuse{
+    background-image: url(../images/share_howuse.png) !important;
+}
+.scrolldown_position{
+    background-image: url(../images/scrolldown.png);
+    background-position: top;
+    bottom: 65px  !important;
+}
+.FAPE_tendencias2016_content_howuse {
+    min-height: 390px;
+    width: 960px;
+    position: relative;
+}
+div.item_howuse{
+    padding: 0px;
+}
+.item_product_howuse{
+    width: 33%;
+    float: left;
+    position: relative;
+    height: 290px;
+    padding-top: 51px;
+    border-right: 1px solid #7f7f7f;
+}
+div.item_product_howuse div.inner {
+    position: absolute;
+    right: 10px;
+}
+.active_howuse{
+    background-position: bottom;
+}
+.howuse_size_product_dress{
+    width: 30.5%;
+    border-bottom: 1px solid #7f7f7f;
+}
+div.content_howuse{
+    position: absolute;
+    top: 15%;
+    left: 50px;
+}
+div.line_top{
+    width: 35px;
+    height: 6px;
+    background-color: #343432;
+    margin-bottom: 10px;
+}
+p.content_howuse_text{
+   line-height: 19px;
+   letter-spacing: 0.3px;
+   font-family: gotham;
+   font-size: 22px;
+   color: black;
+   width: 100px;
+}
+div.content_howuse_position{
+    position: absolute;
+    top: 15%;
+    left: 20px;
+}
+.button_content_howuse, .button_content_howuse_position{
+    position: absolute;
+    left: 50px;
+    top: 40%;
+    background-image: url(../images/button_howuse.png);
+    width: 135px;
+    height: 35px;
+    cursor: pointer;
+}
+.howuse_content_position{
+    left: 20px;
+}
+.button_content_howuse:hover{
+    background-position: bottom;
+}
+.button_content_howuse_position:hover{
+    background-position: 0 33px;
+}
+div.inner_dress{
+    right: 12px !important;
+}
+div.inner_howuse{
+    right: 15px;
+    position: absolute;
+}
+.howuse_size_product{
+    width: 34.6%;
+    border-bottom: 1px solid #7f7f7f;
+}
+.howuse_size_product:last-child{
+   border-right: 0px solid;
+} 
+
+.FAPE_tendencias2016_howuse_content{
+    position: relative;
+    width: 100%;
+    min-height: 2110px;
+}
+/*div.time_line{
+    height: 1985px;
+    width: 117px;
+    background-image: url(../images/time_line.png);
+    position: absolute;
+    left: 50%;
+    background-repeat: no-repeat;
+    z-index: 100;
+        transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+        top: 140px;
+}*/
+div.icon_university{
+    height: 115px;
+    width: 125px;
+    position: absolute;
+    left: 338px;
+    background-repeat: no-repeat;
+    z-index: 100;
+    top: 355px;
+    background-color: white;
+}
+div.icon_office{
+    height: 115px;
+    width: 125px;
+    position: absolute;
+    left: 338px;
+    background-repeat: no-repeat;
+    z-index: 100;
+    top: 1010px;
+    background-color: #F8F8F8;
+}
+div.icon_casual{
+    height: 115px;
+    width: 126px;
+    position: absolute;
+    left: 338px;
+    background-repeat: no-repeat;
+    z-index: 100;
+    top: 1660px;
+    background-color: white;
+}
+.howuse_subtitle {
+    left: 340px !important;
+}
+.howuse_subtitle{
+    position: absolute;
+    left: 336px;
+    bottom: 85px;
+    width: 270px;
+}
+p.title_howuse{
+    font-size: 30px;
+    font-family: gotham;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #000;
+}
+p.subtitle_howuse{
+    text-align: center;
+    font-size: 12px;
+    font-family: gotham-book;
+    margin-bottom: 30px;
+    color: #000;z
+}
+div.items_howuse {
+    padding: 40px 0px 0px 0px;
+    position: relative;
+    width: 790px;
+    margin: 0 auto;
+}
+.items_howuse.wide_howuse .item-two {
+    display: block;
+    margin-top: 7%;
+}
+.items_howuse.wide_howuse .item-three {
+    display: block;
+    position: relative;
+    margin-left: -86px;
+    background-color: #f8f8f8;
+    width: 960px;
+    padding: 30px 75px 0px 75px;
+    box-sizing: border-box;
+}
+.items_howuse.wide_howuse .item-four {
+    display: block;
+    position: relative;
+}
+.items_howuse .item-one, .items_howuse .item-two, .items_howuse .item-three{
+    display: inline-block;
+    height: 620px;
+    margin-bottom: 35px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.items_howuse .item-four{
+    display: inline-block;
+    height: 620px;
+    margin-bottom: 0px;
+    width: 100%;
+    position: relative;
+} 
+.item_box_howuse {
+    position: absolute;
+}
+.item_box_howuse.box-one{
+    width: 321px;
+    height: 605px;
+    left: 0;
+    text-align: center;
+}
+.look_icon_howuse, .look_icon_howuse_blockthree, .look_icon_howuse_blockfour {
+    background-image: url(../images/look_icon_howuse.png);
+    width: 45px;
+    height: 60px;
+    position: absolute;
+    left: 1%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    z-index: 11;
+}
+.item_box_howuse .inner_howuse_itembox{
+    overflow: hidden;
+}
+.inner_howuse_itembox{
+    position: relative;
+    height: 100%;
+}
+.button_howuse{ 
+    position: absolute;
+    text-align: center;
+    top: 310px;
+    right: -50px;
+}
+.button_howuse_left{ 
+    position: absolute;
+    text-align: center;
+    top: 330px;
+    left: 85px;
+}
+.button_howuse_right{ 
+    position: absolute;
+    text-align: center;
+    top: 330px;
+    right: -50px;
+}
+    .rotate_look_howuse{
+        display: inline-block;
+        width: 135px;
+        margin-right: 20px;
+        padding: 10px 5px;
+        border: 2px solid gray;
+        color: #000;
+        font-family: gotham;
+        font-size: 12px;
+        cursor: pointer;
+        text-align: center;
+    }
+    .get_look_howuse{
+        display: inline-block;
+        width: 135px;
+        padding: 10px 5px;
+        border: 2px solid gray;
+        color: #000;
+        font-family: gotham;
+        font-size: 12px;
+        cursor: pointer;
+        text-align: center;
+    }
+    .get_look_howuse:hover{
+        background-color: #000;
+        color: white;
+    }
+    .rotate_look_howuse:hover{
+        background-color: #000;
+        color: white;
+    }
+.item_box_howuse.box-two{
+    width: 270px;
+    right: 0px;
+    top: 170px;
+}
+    div.key_howuse{
+        background-image: url(../images/icon_shoes_howuse.png);
+        background-repeat: no-repeat;
+        width: 129px;
+        height: 42px;
+        position: absolute;
+        left: 0px;
+    }
+    p.key_howuse{
+        margin-top: 20%;
+        font-family: gotham-book;
+        line-height: 15px;
+        letter-spacing: 0.4px;
+        font-size: 12px;
+    }
+.item_box_howuse.box-three{
+    width: 265px;
+    top: 190px;
+    left: 85px;
+}
+.item_box_howuse.box-four{
+    width: 330px;
+    height: 605px;
+    right: 70px;
+    text-align: center;
+}
+.item_box_howuse.box-four_skirt{
+    width: 340px;
+    height: 605px;
+    right: 0%;
+    text-align: center;
+}
+.item_box_howuse.box-five, .item_box_howuse.box-five_skirt{
+    width: 322px;
+    height: 610px;
+    left: 0;
+    text-align: center;
+}
+.item_box_howuse.box-five_skirt{
+    height: 530px !important;
+}
+.item_box_howuse.box-six{
+    width: 270px;
+    right: 0px;
+    top: 190px;
+}
+.look_icon_howuse_blockthree{
+    left: 81%;
+    background-position: 0px -62px !important;
+    top: 40px;
+}
+.look_icon_howuse_blockfour{ 
+    background-position: top !important;
+    left: 1%;
+    top: 10%;
+}
+.inner_howuse_itembox_dress{
+    position: relative;
+    height: 100%;
+    width: 85%;
+}
+div.jeans_block{
+    display: block;
+}
+div.dress_block{
+    display: none;
+}
+div.skirt_block{
+    display: none;
+}
+.blockthree_icon_position{
+    top: 0% !important;
+    left: 71%;
+    z-index: 10;
+}
+.bloctwo_icon_position{
+        left: 3%;
+        top: -10px;
+}
+.blockfour_icon_position{
+    top: -6% !important;
+    left: 10% !important;
+    z-index: 10;
+}
+.button_intro_getlook{
+    position: absolute;
+    bottom: 10px;
+    z-index: 20;
+    cursor: pointer;
+    right: 20px;
+    background: rgba(0,0,0,0.35);
+    opacity: 0;
+    transition-property: opacity, bottom;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    background-image: url(../images/btn_look.png);
+    background-position: bottom;
+    width: 135px;
+    height: 35px;
+}
+.box-oner:hover .button_intro_getlook, .box-two:hover .button_intro_getlook, .box-three:hover .button_intro_getlook, .box-four:hover .button_intro_getlook, .box-five:hover .button_intro_getlook, .box-six:hover .button_intro_getlook,
+.box-seven:hover .button_intro_getlook, .box-eight:hover .button_intro_getlook{
+    opacity: 1;
+    bottom: 30px;
+}
+.box-oner:hover .inner img, .box-two:hover .inner img, .box-three:hover .inner img, .box-four:hover .inner img, .box-five:hover .inner img, .box-six:hover .inner img, .box-seven:hover .inner img,
+.box-eight:hover .inner img{
+    opacity: 0.8;
+}
+.button_intro_getlook:hover{
+    background-position: top;
+}
+/*START-Active wear*/
+.activewear_ground {
+    background-image: url(../images/activewear/banner_activewear.jpg);
+}
+.scrolldown_activewear{
+    bottom: 90px;
+}
+.FAPE_tendencias2016_activewear {
+    position: relative;
+    height: 340px;
+    width: 100%;
+}
+.items.wide .item-one_activewear {
+    min-height: 3250px;
+}
+.items .item-one_activewear, .items .item-two_activewear{
+    display: inline-block;
+    height: 620px;
+    width: 100%;
+    position: relative;
+}
+.item_box_activewear.box-one_activewear{
+    height: 600px;
+    left: 0px;
+    width: 440px;
+    background-color: black;
+}
+.item_box_activewear.box-two_activewear{
+    height: 440px;
+    left: 520px;
+    top: 40px;
+    width: 440px;
+    background-color: black;
+}
+.item_box_activewear.box-three_activewear{
+    height: 600px;
+    left: 0px;
+    top: 680px;
+    width: 960px;
+    background-color: black;
+}
+.item_box_activewear.box-four_activewear{
+    height: 440px;
+    left: 0px;
+    top: 1485px;
+    width: 440px;
+    background-color: black;
+}
+.item_box_activewear.box-five_activewear{
+    height: 600px;
+    left: 520px;
+    top: 1405px;
+    width: 440px;
+    background-color: black;
+}
+.item_box_activewear.box-six_activewear{
+    height: 600px;
+    left: 0px;
+    top: 2085px;
+    width: 440px;
+    background-color: black;
+}
+.item_box_activewear.box-seven_activewear{
+    height: 440px;
+    left: 520px;
+    top: 2160px;
+    width: 440px;
+    background-color: black;
+}
+.item_box_activewear.box-eight_activewear{
+    height: 600px;
+    left: 0px;
+    top: 2765px;
+    width: 960px;
+    background-color: black;
+}
+.item_box_activewear.box-nine_activewear{
+    height: 440px;
+    left: 0px;
+    top: 3545px;
+    width: 440px;
+    background-color: black;
+}
+.item_box_activewear.box-ten_activewear{
+    height: 600px;
+    right: 0px;
+    top: 3460px;
+    width: 440px;
+    background-color: black;
+}
+.item_box_activewear {
+    position: absolute;
+}
+.FAPE_activewear_inner-box {
+    float: left;
+    width: 100%;
+    padding-bottom: 110px;
+    position: relative;
+}
+.scrollToTop_activewear{
+    background-image: url(../images/scrolltoTop.png);
+    bottom: 1%;
+    cursor: pointer;
+    height: 35px;
+    left: 50%;
+    position: absolute;
+    width: 135px;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+}
+.wPsticky_rib {
+    cursor: pointer;
+    height: 22px;
+    position: absolute;
+    width: 22px;
+    z-index: 1001;
+    display: none;
+} 
+.wPsticky_rib .btn__inner {
+        float: left;
+        height: 100%;
+        position: relative;
+        width: 100%;
+    }
+    .wPsticky_rib .plus {
+        background-color: rgba(0,0,0,0.6);
+        border-radius: 50%;
+        color: #fff;
+        font-size: 18px;
+        height: 16px;
+        left: 0;
+        line-height: 0.9em;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        width: 16px;
+        z-index: 9;
+        border: 2px solid white;
+    }
+
+.wPsticky {
+    cursor: pointer;
+    height: 22px;
+    position: absolute;
+    width: 22px;
+    z-index: 1001;
+    display: block;
+}       
+    .wPsticky .btn__inner {
+        float: left;
+        height: 100%;
+        position: relative;
+        width: 100%;
+    }
+    .wPsticky .plus {
+        background-color: rgba(0,0,0,0.6);
+        border-radius: 50%;
+        color: #fff;
+        font-size: 18px;
+        height: 16px;
+        left: 0;
+        line-height: 0.9em;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        width: 16px;
+        z-index: 9;
+        border: 2px solid white;
+    }
+    .qtip {
+        position: absolute;
+        left: -28000px;
+        top: -28000px;
+        display: none;
+        max-width: 400px !important;
+        min-width: 50px;
+    }
+    .qtip-pos-rc .tag {
+        margin-right: 10px;
+    }
+    .qtip-pos-lc .tag {
+        margin-left: 10px;
+    }
+    .qtip-content .tag {
+        background-color: #fff;
+        position: relative;
+    }
+    .qtip-content .tag.lg {
+        background-color: #fff;
+        border: 2px solid #000;
+        min-height: 196px;
+        width: 335px;
+    }    
+.gps_ring {
+    border: 1px solid #000;
+    -webkit-border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    -webkit-animation: pulsate 1.2s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.0;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+}
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
+.sticky-wrapper {
+    z-index: 9;
+    height: 51px !important;
+}
+    .sticky-wrapper.is-sticky .navmenu {
+        background-color: #fff;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .sticky-wrapper.is-sticky .menu {
+        height: 30px !important;
+    }
+#route, #route_2, #route_3 {
+      margin-top: 0px;
+      position: absolute;
+        left: 50%;
+      z-index: 100;
+      transform: translate(-50%);
+      -webkit-transform: translate(-50%);
+}
+#dapper, #depper{
+    display: block;
+    animation: depper-jiggle 350ms linear;
+    background-color: black;
+}
+@keyframes depper-jiggle {
+    0%{
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    100%{
+        opacity: 1;
+        trasnform: translateY(0px);
+    }
+}
+/*.dapper, .depper, .dipper, .dopper, .dupper, .dipper_skirt, .dopper_skirt, .dupper_skirt, .dapper_colection, .depper_colection, .dipper_colection, .dipper_active, .dopper_colection, .dupper_colection, 
+.dapper_active, .continuous-group-left, .continuous-group-grunge-left, .continuous-group-mid, .continuous-group-right, .continuous-group-four{
+    display: block;
+    transition: all 350ms ease-in-out;
+}*/
+/*.js-dipper-animate{
+    opacity: 1;
+    animation: dipper-jiggle 350ms linear;
+}
+
+.js-dapper-animate{
+    opacity: 1 !important;
+    animation: dapper-jiggle 450ms ease-in-out;
+}*/
+.col {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+@keyframes dipper-jiggle {
+    0%{
+        transform: scale(0);
+    }
+    70%{
+        transform: scale(1.2);
+    }
+    100%{
+        trasnform: scale(1);
+    }
+}
+@keyframes dapper-jiggle {
+    0%{
+        transform: translateY(200px);
+    }
+    100%{
+        trasnform: translateY(0px);
+    }
+}
+
+/*rib*/
+.video_activewear{
+    position: absolute;
+    bottom: 0px;
+    left: 60px;
+}
+.FAPE_tendencias2016_content_rib{
+    min-height: 810px;
+    width: 960px;
+    position: relative;
+    overflow: hidden;
+}
+div.background_rib{
+    background-image: url(../images/rib/background_rib.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    height: 940px;
+    width: 42px;
+    top: 340px;
+}
+.rib_ground{
+    background-image: url(../images/rib/rib_banner.png);
+}
+.rib_title{
+    position: absolute;
+    left: 310px;
+    bottom: 135px;
+    width: 331px;
+}
+.rib_subtitle{
+   position: absolute;
+    left: 225px;
+    bottom: 100px;  
+}
+div.item_rib{
+    padding-top: 55px;
+}
+div.subtitle_rib_2{
+    width: 630px;
+    position: absolute;
+    text-align: right;
+    right: 0px;
+    z-index: 1000;
+}
+p.text_colection_rib {
+    font-size: 12px;
+    font-family: gotham-book;
+    color: black;
+    width: 100%;
+    line-height: 15px;  
+    letter-spacing: 0.3px;
+    margin-top: 40px;
+}
+.box_carousel{
+    position: absolute;
+    top: 300px;
+    left: 235px;
+}
+.wrapper .item {
+    display: block;
+    float: left;
+    border: none;
+    position: relative;
+    
+    text-align: center;
+    padding: 0px;
+}
+.item img{
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+}
+div.prev{
+    width: 15px;
+    height: 25px;
+    position: absolute;
+    left: -130px;
+    background-position: left;
+    top: 150px;
+    background-image: url(../images/rib/arrow.png);
+    background-repeat: no-repeat;
+    z-index: 1000;
+    cursor: pointer;
+}
+div.next{
+    width: 15px;
+    height: 25px;
+    position: absolute;
+    right: 0px;
+    top: 150px;
+    background-position: right;
+    background-image: url(../images/rib/arrow.png);
+    z-index: 1000;
+    cursor: pointer;
+}
+.FAPE_main-container {
+    display: inline-block;
+    width: 100%;
+}
+.box_contador{
+    position: absolute;
+    left: 275px;;
+}
+#wrapper_contador{
+    width: 80px;
+    height: 55px;
+    position: absolute;
+    left: 320px;
+    z-index: 1000;
+    text-align: right;
+    top: 170px;
+}
+.contador_carousel{
+    width: 80px;
+    height: 55px;
+    position: relative;
+    float: left;
+    display: none;
+
+}
+p.contador_bold{
+    font-family: gotham;
+    font-size: 60px;
+    display: inline-block;
+    margin-top: -10px;
+}
+p.contador_light{
+    font-family: gotham-book;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+/*div.button_rib{
+    width: 305px;
+    height: 35px;
+    position: absolute;
+    top: 800px;  
+    left: 325px;
+}*/
+#button_rib_wrapper{
+    width: 305px;
+    height: 35px;
+    position: absolute;
+    left: 320px;
+    bottom: 0px;
+}
+.button_rib_carousel{
+    width: 305px;
+    height: 35px;
+    position: relative;
+    float: left;
+    display: none;
+}
+div.get_look{
+    width: 135px;
+    height: 35px;
+    background-image: url(../images/rib/look.png);
+    background-position: bottom;
+    margin-right: 35px;
+    float: left;
+    cursor: pointer;
+}
+div.get_look:hover{
+    background-position: top;
+}
+div.photo{
+    width: 135px;
+    height: 35px;
+    background-image: url(../images/rib/photo.png);
+    background-position: bottom;
+    float: left;
+    cursor: pointer;
+}
+div.photo:hover{
+    background-position: top;
+}
+.box_gama{
+    position: absolute;
+    width: 220px;
+    height: 130px;
+    display: none;
+}
+.gama_carousel{
+    width: 150px;
+    height: 22px;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    background-image: url(../images/rib/gama_1.png);
+    left: -15px; 
+    transition: left 0.2s ease-in-out;
+}
+.gama_carousel:hover, .gama_carousel_2:hover, .gama_carousel_3:hover, .gama_carousel_4:hover, .gama_carousel_5:hover, .gama_carousel_6:hover{
+    left: 0px; 
+}
+.gama_carousel_2{
+    width: 170px;
+    height: 22px;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    background-image: url(../images/rib/gama_2.png);
+    left: -15px;
+    transition: left 0.2s ease-in-out; 
+}
+.gama_carousel_3{
+    width: 210px;
+    height: 22px;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    background-image: url(../images/rib/gama_3.png);
+    left: -15px;
+    transition: left 0.2s ease-in-out; 
+
+}
+.gama_carousel_4{
+    width: 150px;
+    height: 22px;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    background-image: url(../images/rib/gama_4.png);
+    left: -15px; 
+    transition: left 0.2s ease-in-out;
+}
+.gama_carousel_5{
+    width: 165px;
+    height: 22px;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    background-image: url(../images/rib/gama_5.png);
+    left: -15px;
+    transition: left 0.2s ease-in-out; 
+}
+.gama_carousel_6{
+    width: 100px;
+    height: 22px;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    background-image: url(../images/rib/gama_6.png);
+    left: -15px;
+    transition: left 0.2s ease-in-out; 
+}
+/*#pager {
+    text-align: right;
+    padding: 20px 45px 0 0;
+}
+#pager a {
+    background-color: #356;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px #cef;
+}
+#pager a.selected {
+    background-color: #134;
+}
+#pager a span {
+    display: none;
+}*/
+ 
+.container_zoom{
+    width: 260px;
+    height: 730px;
+}
+.active_rib{
+    left: 0px !important;
+}
+    .intro__box {
+        background-color: #e5e5e5;
+        height: 250px;
+        position: relative;
+        width: 100%;
+    }
+        .prendas_clave {
+            background-image: url(../images/intro-4prendas.png);
+            background-position: 50% 50%;
+            height: 100%;
+            position: relative;
+        }
+            .prendas_clave p {
+                font-family: 'AbadiMTCondensedLightRegular';
+                font-size: 41px;
+                left: 32%;
+                letter-spacing: 7px;
+                position: absolute;
+                text-transform: uppercase;
+                top: 43%;
+            }
+            .prendas_clave span {
+                display: inline-block;
+                font-family: 'AbadiMTCondensedExtraBoldRegular';
+                margin-left: -20px;
+            }
+
+svg#tracesvg {
+    position: absolute;
+    top: 110px;
+    left: calc(50% - 25px);
+    z-index: 2;
+}
+.roundabout-holder {
+            padding: 0;
+            margin: 0 auto;
+            height: 400px;
+            width: 640px;
+        }
+        
+        .roundabout-moveable-item {
+            height: 710px;
+            width: 217px;
+            cursor: pointer;
+            
+            display:block;
+        }
+        
+        .roundabout-moveable-item img {
+            height: 100%;
+            width: 100%;
+        }
+        
+        .roundabout-in-focus {
+            cursor: auto;
+        }
+        #wrapper_contador li.current {
+            display:block;
+            opacity: 1;
+        }
+        #wrapper_contador li.current {
+            display:block;
+            opacity: 1;
+        }
+        #carousel-pin div.wPsticky_rib.current{
+            display:block !important;
+            opacity: 1;
+        }
+#carousel-controls {
+            max-width:230px;
+            width:auto;
+            overflow:auto;
+            border-collapse:collapse;
+            position: absolute;
+            top: 170px;
+    z-index: 1000;
+        }
+#carousel-controls span:nth-child(1):hover{
+         background-image: url(../images/rib/HOVER/1.png);                
+}
+#carousel-controls span:nth-child(2):hover{
+        background-image: url(../images/rib/HOVER/2.png);
+}
+#carousel-controls span:nth-child(3):hover{
+        background-image: url(../images/rib/HOVER/3.png);
+}  
+#carousel-controls span:nth-child(4):hover{
+        background-image: url(../images/rib/HOVER/4.png);
+}
+#carousel-controls span:nth-child(5):hover{
+        background-image: url(../images/rib/HOVER/5.png);
+} 
+#carousel-controls span:nth-child(6):hover{
+        background-image: url(../images/rib/HOVER/6.png);
+}     
+#carousel-controls span:nth-child(1) {
+            width: 182px;
+            height: 22px;
+            cursor: pointer;
+            float: left;
+            background-repeat: no-repeat;
+            background-image: url(../images/rib/gama_1.png);   
+}
+#carousel-controls span:nth-child(2) {
+            width:182px;
+            height: 22px;
+            cursor: pointer;
+            float: left;
+            background-repeat: no-repeat;
+            background-image: url(../images/rib/gama_2.png);           
+        }
+#carousel-controls span:nth-child(3) {
+            width:182px;
+            height: 22px;
+            display: inline-block;
+            font-size: 14px;
+            text-align: center;
+            cursor: pointer;
+            float: left;
+            background-repeat: no-repeat;
+            background-image: url(../images/rib/gama_3.png);          
+        }
+#carousel-controls span:nth-child(4) {
+            width: 182px;
+            height: 22px;
+            cursor: pointer;
+            float: left;
+            background-repeat: no-repeat;
+            background-image: url(../images/rib/gama_4.png);
+        }
+#carousel-controls span:nth-child(5) {
+            width:182px;
+            height: 22px;
+            cursor: pointer;
+            float: left;
+            background-repeat: no-repeat;
+            background-image: url(../images/rib/gama_5.png);        
+        }
+#carousel-controls span:nth-child(6) {
+            width:182px;
+            height: 22px;
+            cursor: pointer;
+            float: left;
+            background-repeat: no-repeat;
+            background-image: url(../images/rib/gama_6.png);          
+        }
+#carousel-controls span:nth-child(1).current{background-image: url(../images/rib/ACTIVE/1.png);}
+#carousel-controls span:nth-child(2).current{background-image: url(../images/rib/ACTIVE/2.png);}
+#carousel-controls span:nth-child(3).current{background-image: url(../images/rib/ACTIVE/3.png);}
+#carousel-controls span:nth-child(4).current{background-image: url(../images/rib/ACTIVE/4.png);}
+#carousel-controls span:nth-child(5).current{background-image: url(../images/rib/ACTIVE/5.png);}
+#carousel-controls span:nth-child(6).current{background-image: url(../images/rib/ACTIVE/6.png);} 
+#button_rib_wrapper .button_rib_carousel.current {
+            display:block;
+}    
+ul#carousel-pin{
+    left: 395px;
+    z-index: 1001;
+    top: 216px;  
+}   
